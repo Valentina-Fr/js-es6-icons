@@ -1,0 +1,7 @@
+#form {
+    height: 50px;
+}
+
+main {
+    height: calc(100vh - 121.45px);
+}
