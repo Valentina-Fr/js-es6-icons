@@ -3,5 +3,5 @@
 }
 
 main {
-    height: calc(100vh - 121.45px);
+    min-height: calc(100vh - 121.45px);
 }
