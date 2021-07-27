@@ -4,7 +4,7 @@ const renderIcons = (arr, targetElement) => {
         let hasOffset = i % 5 == 0 ? "offset-md-1" : "";
         iconsTemplate += `
         <div class="col-12 col-sm-4 col-md-2 ${hasOffset}">
-            <div class="card ms-card justify-content-center">
+            <div class="card h-100 ms-card justify-content-center">
                 <div class="card-body"><i class="${icon.family} ${icon.prefix}${icon.name} fa-2x ${icon.type}"></i>
                     <h6>${icon.name.toUpperCase()}</h6>
                 </div>

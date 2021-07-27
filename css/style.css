@@ -6,10 +6,6 @@ main {
     min-height: calc(100vh - 121.45px);
 }
 
-.ms-card {
-    min-height: 150px;
-}
-
 .ms-card .card-body {
     flex: none;
 }
